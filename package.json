@@ -1,24 +1,48 @@
 {
-  "name": "rgb_rn",
+  "name": "RGB String",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "eject": "expo eject"
   },
   "dependencies": {
-    "expo": "~44.0.0",
-    "expo-status-bar": "~1.2.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "@expo/webpack-config": "^18.0.1",
+    "@miblanchard/react-native-slider": "^2.1.0",
+    "@react-native-async-storage/async-storage": "1.17.11",
+    "@react-native-community/netinfo": "9.3.7",
+    "@react-navigation/native": "^6.0.8",
+    "@react-navigation/native-stack": "^6.5.2",
+    "colorsys": "^1.0.22",
+    "default-gateway": "^6.0.3",
+    "expo": "^48.0.0",
+    "expo-splash-screen": "~0.18.1",
+    "expo-status-bar": "~1.4.4",
+    "jsdom": "^19.0.0",
+    "jsdom-jscore-rn": "^0.1.8",
+    "node-html-parser": "^5.3.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.71.6",
+    "react-native-cache": "^2.0.2",
+    "react-native-canvas": "^0.1.38",
+    "react-native-color-picker": "^0.6.0",
+    "react-native-navigation": "^7.26.0",
+    "react-native-netinfo": "^1.1.0",
+    "react-native-network-info": "^5.2.1",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-screens": "~3.20.0",
+    "react-native-use-websocket": "^0.2.6",
+    "react-native-web": "~0.18.11",
+    "react-native-websocket": "^1.0.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.0.27",
+    "@types/react-native": "~0.64.12",
+    "typescript": "^4.9.4"
   },
   "private": true
 }
